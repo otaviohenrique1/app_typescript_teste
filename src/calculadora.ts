@@ -63,6 +63,105 @@ export class Calculadora {
       console.log(Calculadora.FormatadorFinal(item.c, Calculadora.CalculaMedida(item.a, item.b, item.c), item.nome));
     });
   }
+
+  static teoremaDePitagoras3(
+    cateto1: number = 0,
+    cateto2: number = 0,
+    hipotenusa: number = 0
+  ) {
+    let resultado: number = 0;
+    let nomeCampo: string = '';
+
+    if (cateto1 == 0) {
+      nomeCampo = 'Cateto 1';
+      resultado = Math.sqrt(Math.pow(hipotenusa, 2) - Math.pow(cateto2, 2));
+      return {
+        'nomeCampo': nomeCampo,
+        'resultado': resultado,
+      };
+    } else if (cateto2 == 0) {
+      nomeCampo = 'Cateto 2';
+      resultado = Math.sqrt(Math.pow(hipotenusa, 2) - Math.pow(cateto1, 2));
+      return {
+        'nomeCampo': nomeCampo,
+        'resultado': resultado,
+      };
+    } else if (hipotenusa == 0) {
+      nomeCampo = 'Hipotenusa';
+      resultado = Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));
+      return {
+        'nomeCampo': nomeCampo,
+        'resultado': resultado,
+      };
+    }
+    // nomeCampo = '';
+    return {
+      'nomeCampo': '',
+      'resultado': 0,
+    };
+  }
+
+  static teoremaDePitagoras4(
+    cateto1: number = 0,
+    cateto2: number = 0,
+    hipotenusa: number = 0,
+  ) {
+    let resultado: number = 0;
+    let nomeCampo: string = '';
+
+    if (cateto1 == 0) {
+      nomeCampo = 'Cateto 1';
+      resultado = Math.sqrt(Math.pow(hipotenusa, 2) - Math.pow(cateto2, 2));
+      return [nomeCampo, resultado];
+    } else if (cateto2 == 0) {
+      nomeCampo = 'Cateto 2';
+      resultado = Math.sqrt(Math.pow(hipotenusa, 2) - Math.pow(cateto1, 2));
+      return [nomeCampo, resultado];
+    } else if (hipotenusa == 0) {
+      nomeCampo = 'Hipotenusa';
+      resultado = Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));
+      return [nomeCampo, resultado];
+    }
+    return ['', 0];
+  }
+
+  static equacao2Grau(
+    a: number,
+    b: number,
+    c: number
+  ) {
+    /*
+      Se Δ < 0, a equacao do segundo grau nao possui raizes reais;
+      Se Δ = 0, a equacao do segundo grau possui uma raiz real;
+      Se Δ > 0, a equacao do segundo grau possui duas raizes reais.
+    */
+    let delta: number = Math.pow(b, 2) - (4 * a * c);
+
+    if (delta < 0) {
+      return { "r": "nao possui raizes reais" };
+    } else if (delta == 0) {
+      let x = (-b + 0) / (2 * a);
+      return { x };
+    } else if (delta > 0) {
+      let x1: number = (-b + Math.sqrt(delta)) / (2 * a);
+      let x2: number = (-b - Math.sqrt(delta)) / (2 * a);
+      return { x1, x2 };
+    }
+    return {"r": "Valor invalido"};
+  }
+
+  static geraNumero(tamanho: number) {
+    return Math.floor(Math.random() * tamanho);
+  }
+
+  static geraListaNumerosEmString(tamanho: number) {
+    let lista: number[] = [];
+    for (var i = 0; i < tamanho; i++) {
+      lista.push(Math.floor(Math.random() * 10));
+    }
+    let texto: string = lista.join();
+    return texto;
+  }
 }
 
 export function CalculaPerimetroCirculo(valor: number): void {
