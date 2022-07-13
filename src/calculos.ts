@@ -14,7 +14,7 @@ export function CalculaMedidaUssKelvinImagem1(valor_c: number) {
   console.log(Calculadora.FormataCalculo([
     'UssKelvin',
     valorImagem.toString(),
-    resultadoImagem.toString(),
+    resultadoImagem.toFixed(2),
     Math.round(resultadoImagem).toString()
   ]));
 }
@@ -33,7 +33,7 @@ export function CalculaMedidaFletcherClassDestroyerImagem1(valor_c: number) {
   console.log(Calculadora.FormataCalculo([
     'FletcherClassDestroyer',
     valorImagem.toString(),
-    resultadoImagem.toString(),
+    resultadoImagem.toFixed(2),
     Math.round(resultadoImagem).toString()
   ]));
 }
@@ -52,7 +52,7 @@ export function CalculaMedidaLeopard2Imagem1(valor_c: number) {
   console.log(Calculadora.FormataCalculo([
     'Leopard2Imagem1',
     valorImagem.toString(),
-    resultadoImagem.toString(),
+    resultadoImagem.toFixed(2),
     Math.round(resultadoImagem).toString()
   ]));
 }
@@ -71,7 +71,7 @@ export function CalculaMedidaLeopard2Imagem4_1(valor_c: number) {
   console.log(Calculadora.FormataCalculo([
     'Leopard2Imagem4_1',
     valorImagem.toString(),
-    resultadoImagem.toString(),
+    resultadoImagem.toFixed(2),
     Math.round(resultadoImagem).toString()
   ]));
 }
@@ -94,8 +94,8 @@ export function CalculaMedidaLeopard2Imagem4(valor_c: number) {
   console.log(Calculadora.FormataCalculo([
     'Leopard2Imagem4',
     valorImagem.toString(),
-    resultadoImagem4.toString(),
-    resultadoImagem1.toString(),
+    resultadoImagem4.toFixed(2),
+    resultadoImagem1.toFixed(2),
     Math.round(resultadoImagem1).toString()
   ]));
 }
@@ -138,7 +138,7 @@ export function CalculaMedidaOptimusPrimeCaminhaoImagem1(valor_c: number) {
   console.log(Calculadora.FormataCalculo([
     'OptimusPrimeCaminhao',
     valorImagem.toString(),
-    resultadoImagem.toString(),
+    resultadoImagem.toFixed(2),
     Math.round(resultadoImagem).toString()
   ]));
 }
@@ -159,7 +159,7 @@ export function CalculaMedidaPanther2(valor_c: number) {
     'Panther',
     valorImagem2.toString(),
     valorImagem1.toString(),
-    resultadoImagem.toString(),
+    resultadoImagem.toFixed(2),
     Math.round(resultadoImagem).toString()
   ]));
 }
@@ -178,7 +178,7 @@ export function CalculaMedidaPanther(valor_c: number) {
   console.log(Calculadora.FormataCalculo([
     'Panther',
     valorImagem.toString(),
-    resultadoImagem.toString(),
+    resultadoImagem.toFixed(2),
     Math.round(resultadoImagem).toString()
   ]));
 }
@@ -199,7 +199,7 @@ export function CalculaMedidaJadgpanther2(valor_c: number) {
     'Jadgpanther',
     valorImagem2.toString(),
     valorImagem1.toString(),
-    resultadoImagem.toString(),
+    resultadoImagem.toFixed(2),
     Math.round(resultadoImagem).toString()
   ]));
 }
@@ -218,7 +218,7 @@ export function CalculaMedidaJadgpanther(valor_c: number) {
   console.log(Calculadora.FormataCalculo([
     'Jadgpanther',
     valorImagem.toString(),
-    resultadoImagem.toString(),
+    resultadoImagem.toFixed(2),
     Math.round(resultadoImagem).toString()
   ]));
 }
@@ -237,7 +237,7 @@ export function CalculaMedidaBTR80Imagem1(valor_c: number) {
   console.log(Calculadora.FormataCalculo([
     'BTR-80',
     valorImagem.toString(),
-    resultadoImagem.toString(),
+    resultadoImagem.toFixed(2),
     Math.round(resultadoImagem).toString()
   ]));
 }
