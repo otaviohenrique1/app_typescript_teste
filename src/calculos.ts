@@ -124,6 +124,30 @@ export function CalculaMedidaLeopard2Imagem5(valor_c: number) {
   ]));
 }
 
+export function CalculaMedidaLeopard2Imagem10(valor_c: number) {
+  /*
+    42 - x1
+    73 - y1
+    x1 = (73*y1)/42
+    154 - x1
+    300 - x2
+    x2 = (300*x1)/154
+    a - c
+    b - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem5: number = Calculadora.CalculaMedida(42, 73, valorImagem);
+  let resultadoImagem1: number = Calculadora.CalculaMedida(154, 300, resultadoImagem5);
+  console.log(Calculadora.FormataCalculo([
+    'Leopard2Imagem5',
+    valorImagem.toString(),
+    resultadoImagem5.toString(),
+    resultadoImagem1.toString(),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
 export function CalculaMedidaOptimusPrimeCaminhaoImagem1(valor_c: number) {
   /*
     192 - x
