@@ -11,10 +11,10 @@ import { CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMed
 // CalculaMedidaFletcherClassDestroyerImagem1(33);
 /* ------------------------------ */
 /* Leopard2 */
-CalculaMedidaLeopard2Imagem1(2);
+CalculaMedidaLeopard2Imagem1(17);
 // CalculaMedidaLeopard2Imagem1(5);
 // CalculaMedidaLeopard2Imagem4_1(3);
-// CalculaMedidaLeopard2Imagem4(5);
+// CalculaMedidaLeopard2Imagem4(8);
 // CalculaMedidaLeopard2Imagem5(7);
 // CalculaMedidaLeopard2Imagem10(8);
 /* ------------------------------ */
@@ -31,3 +31,7 @@ CalculaMedidaLeopard2Imagem1(2);
 // CalculaMedidaPanther(46);
 // CalculaMedidaPanther2(51);
 /* ------------------------------ */
+/*
+174 ------ 300
+171 ------ 300
+*/
