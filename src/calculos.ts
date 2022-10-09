@@ -280,3 +280,22 @@ export function CalculaMedidaBTR80Imagem2(valor_c: number) {
     Math.round(resultadoImagem1).toString()
   ]));
 }
+
+export function CalculaMedidaMonitorClasseRoberts(valor_c: number) {
+  /*
+    228.5 - 600
+    y     - x
+    x = (600*y)/228.5
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(228.5, 600, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'Monitor Classe Roberts',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}

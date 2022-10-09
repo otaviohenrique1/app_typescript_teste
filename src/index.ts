@@ -1,4 +1,6 @@
-import { CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMedidaLeopard2Imagem4, CalculaMedidaLeopard2Imagem4_1, CalculaMedidaLeopard2Imagem5 } from "./calculos";
+import { CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMedidaLeopard2Imagem4, CalculaMedidaLeopard2Imagem4_1, CalculaMedidaLeopard2Imagem5,
+CalculaMedidaBTR80Imagem1, 
+CalculaMedidaMonitorClasseRoberts} from "./calculos";
 
 /* ------------------------------ */
 /* OptimusPrimeCaminhao */
@@ -11,15 +13,18 @@ import { CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMed
 // CalculaMedidaFletcherClassDestroyerImagem1(33);
 /* ------------------------------ */
 /* Leopard2 */
-CalculaMedidaLeopard2Imagem1(17);
+// CalculaMedidaLeopard2Imagem1(17);
 // CalculaMedidaLeopard2Imagem1(5);
 // CalculaMedidaLeopard2Imagem4_1(3);
 // CalculaMedidaLeopard2Imagem4(8);
 // CalculaMedidaLeopard2Imagem5(7);
 // CalculaMedidaLeopard2Imagem10(8);
 /* ------------------------------ */
+/* Monitor Classe Roberts */
+CalculaMedidaMonitorClasseRoberts(50);
+/* ------------------------------ */
 /* BTR-80 */
-// CalculaMedidaBTR80Imagem1(8);
+// CalculaMedidaBTR80Imagem1(3.5);
 // CalculaMedidaBTR80Imagem2(2);
 // CalculaMedidaBTR80Imagem3(8);
 /* ------------------------------ */
