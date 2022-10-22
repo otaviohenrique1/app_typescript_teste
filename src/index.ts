@@ -1,5 +1,6 @@
 import { CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMedidaLeopard2Imagem4, CalculaMedidaLeopard2Imagem4_1, CalculaMedidaLeopard2Imagem5,
-CalculaMedidaBTR80Imagem1, 
+CalculaMedidaBTR80Imagem1,
+CalculaMedidaArdentClassFastFrigate,
 CalculaMedidaMonitorClasseRoberts} from "./calculos";
 
 /* ------------------------------ */
@@ -21,12 +22,15 @@ CalculaMedidaMonitorClasseRoberts} from "./calculos";
 // CalculaMedidaLeopard2Imagem10(8);
 /* ------------------------------ */
 /* Monitor Classe Roberts */
-CalculaMedidaMonitorClasseRoberts(50);
+// CalculaMedidaMonitorClasseRoberts(7);
 /* ------------------------------ */
 /* BTR-80 */
-// CalculaMedidaBTR80Imagem1(3.5);
+// CalculaMedidaBTR80Imagem1(10);
 // CalculaMedidaBTR80Imagem2(2);
 // CalculaMedidaBTR80Imagem3(8);
+/* ------------------------------ */
+/* Ardent-class fast frigate */
+CalculaMedidaArdentClassFastFrigate(67);
 /* ------------------------------ */
 /* Jadgpanther */
 // CalculaMedidaJadgpanther(47);
