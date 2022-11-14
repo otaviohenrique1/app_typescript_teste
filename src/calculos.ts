@@ -283,15 +283,15 @@ export function CalculaMedidaBTR80Imagem2(valor_c: number) {
 
 export function CalculaMedidaArdentClassFastFrigate(valor_c: number) {
   /*
-    100.4 - 300
+    92 - 300
     y     - x
-    x = (300*y)/100.4
+    x = (300*y)/92
     a - b
     c - x
     x = (b*c)/a
   */
   let valorImagem: number = valor_c;
-  let resultadoImagem1: number = Calculadora.CalculaMedida(100.4, 300, valorImagem);
+  let resultadoImagem1: number = Calculadora.CalculaMedida(92, 300, valorImagem);
   console.log(Calculadora.FormataCalculo([
     'Ardent-class_fast_frigate',
     valorImagem.toString(),

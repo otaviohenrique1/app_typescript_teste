@@ -1,7 +1,11 @@
 import { CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMedidaLeopard2Imagem4, CalculaMedidaLeopard2Imagem4_1, CalculaMedidaLeopard2Imagem5,
 CalculaMedidaBTR80Imagem1,
 CalculaMedidaArdentClassFastFrigate,
-CalculaMedidaMonitorClasseRoberts} from "./calculos";
+CalculaMedidaMonitorClasseRoberts,
+CalculaMedidaJadgpanther,
+CalculaMedidaJadgpanther2,
+CalculaMedidaPanther,
+CalculaMedidaPanther2} from "./calculos";
 
 /* ------------------------------ */
 /* OptimusPrimeCaminhao */
@@ -30,15 +34,15 @@ CalculaMedidaMonitorClasseRoberts} from "./calculos";
 // CalculaMedidaBTR80Imagem3(8);
 /* ------------------------------ */
 /* Ardent-class fast frigate */
-CalculaMedidaArdentClassFastFrigate(67);
+CalculaMedidaArdentClassFastFrigate(10);
 /* ------------------------------ */
 /* Jadgpanther */
-// CalculaMedidaJadgpanther(47);
-// CalculaMedidaJadgpanther2(48);
+CalculaMedidaJadgpanther(47);
+CalculaMedidaJadgpanther2(48);
 /* ------------------------------ */
 /* Panther */
-// CalculaMedidaPanther(46);
-// CalculaMedidaPanther2(51);
+CalculaMedidaPanther(46);
+CalculaMedidaPanther2(51);
 /* ------------------------------ */
 /*
 174 ------ 300
