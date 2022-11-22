@@ -34,15 +34,15 @@ CalculaMedidaPanther2} from "./calculos";
 // CalculaMedidaBTR80Imagem3(8);
 /* ------------------------------ */
 /* Ardent-class fast frigate */
-CalculaMedidaArdentClassFastFrigate(10);
+CalculaMedidaArdentClassFastFrigate(6);
 /* ------------------------------ */
 /* Jadgpanther */
-CalculaMedidaJadgpanther(47);
-CalculaMedidaJadgpanther2(48);
+// CalculaMedidaJadgpanther(47);
+// CalculaMedidaJadgpanther2(48);
 /* ------------------------------ */
 /* Panther */
-CalculaMedidaPanther(46);
-CalculaMedidaPanther2(51);
+// CalculaMedidaPanther(46);
+// CalculaMedidaPanther2(51);
 /* ------------------------------ */
 /*
 174 ------ 300
