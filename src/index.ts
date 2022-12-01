@@ -5,7 +5,8 @@ CalculaMedidaMonitorClasseRoberts,
 CalculaMedidaJadgpanther,
 CalculaMedidaJadgpanther2,
 CalculaMedidaPanther,
-CalculaMedidaPanther2} from "./calculos";
+CalculaMedidaPanther2,
+CalculaMedidaT34Imagem1} from "./calculos";
 
 /* ------------------------------ */
 /* OptimusPrimeCaminhao */
@@ -34,7 +35,10 @@ CalculaMedidaPanther2} from "./calculos";
 // CalculaMedidaBTR80Imagem3(8);
 /* ------------------------------ */
 /* Ardent-class fast frigate */
-CalculaMedidaArdentClassFastFrigate(6);
+// CalculaMedidaArdentClassFastFrigate(2.5);
+/* ------------------------------ */
+/* T34 */
+CalculaMedidaT34Imagem1(72);
 /* ------------------------------ */
 /* Jadgpanther */
 // CalculaMedidaJadgpanther(47);

@@ -190,15 +190,15 @@ export function CalculaMedidaPanther2(valor_c: number) {
 
 export function CalculaMedidaPanther(valor_c: number) {
   /*
-    126 - 200
+    126 - 300
     y   - x
-    x = (200*y)/120
+    x = (300*y)/126
     a - b
     c - x
     x = (b*c)/a
   */
   let valorImagem: number = valor_c;
-  let resultadoImagem: number = Calculadora.CalculaMedida(126, 200, valorImagem);
+  let resultadoImagem: number = Calculadora.CalculaMedida(126, 300, valorImagem);
   console.log(Calculadora.FormataCalculo([
     'Panther',
     valorImagem.toString(),
@@ -218,7 +218,7 @@ export function CalculaMedidaJadgpanther2(valor_c: number) {
   */
   let valorImagem2: number = valor_c;
   let valorImagem1: number = Calculadora.CalculaMedida(126, 172, valorImagem2);
-  let resultadoImagem: number = Calculadora.CalculaMedida(172, 200, valorImagem1);
+  let resultadoImagem: number = Calculadora.CalculaMedida(172, 300, valorImagem1);
   console.log(Calculadora.FormataCalculo([
     'Jadgpanther',
     valorImagem2.toString(),
@@ -311,6 +311,25 @@ export function CalculaMedidaMonitorClasseRoberts(valor_c: number) {
   */
   let valorImagem: number = valor_c;
   let resultadoImagem1: number = Calculadora.CalculaMedida(228.5, 600, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'Monitor Classe Roberts',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedidaT34Imagem1(valor_c: number) {
+  /*
+    165 - 250
+    y     - x
+    x = (250*y)/165
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(165, 250, valorImagem);
   console.log(Calculadora.FormataCalculo([
     'Monitor Classe Roberts',
     valorImagem.toString(),
