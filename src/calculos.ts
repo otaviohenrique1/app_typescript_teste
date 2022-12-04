@@ -375,3 +375,22 @@ export function CalculaMedidaT34Imagem3(valor_c: number) {
     Math.round(resultadoImagem1).toString()
   ]));
 }
+
+export function CalculaMedidaSu100Imagem1(valor_c: number) {
+  /*
+    118 - 250
+    y   - x
+    x = (250*y)/118
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(118, 250, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'Su-100',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
