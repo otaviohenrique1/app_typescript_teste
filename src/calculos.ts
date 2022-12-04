@@ -321,17 +321,55 @@ export function CalculaMedidaMonitorClasseRoberts(valor_c: number) {
 
 export function CalculaMedidaT34Imagem1(valor_c: number) {
   /*
-    165 - 250
+    175 - 250
     y     - x
-    x = (250*y)/165
+    x = (250*y)/175
     a - b
     c - x
     x = (b*c)/a
   */
   let valorImagem: number = valor_c;
-  let resultadoImagem1: number = Calculadora.CalculaMedida(165, 250, valorImagem);
+  let resultadoImagem1: number = Calculadora.CalculaMedida(175, 250, valorImagem);
   console.log(Calculadora.FormataCalculo([
-    'Monitor Classe Roberts',
+    'T-34',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedidaT34Imagem2(valor_c: number) {
+  /*
+    260 - 175
+    y     - x
+    x = (175*y)/260
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(260, 175, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'T-34',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedidaT34Imagem3(valor_c: number) {
+  /*
+    165 - 175
+    y     - x
+    x = (175*y)/165
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(165, 175, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'T-34',
     valorImagem.toString(),
     resultadoImagem1.toFixed(2),
     Math.round(resultadoImagem1).toString()

@@ -6,7 +6,9 @@ CalculaMedidaJadgpanther,
 CalculaMedidaJadgpanther2,
 CalculaMedidaPanther,
 CalculaMedidaPanther2,
-CalculaMedidaT34Imagem1} from "./calculos";
+CalculaMedidaT34Imagem1,
+CalculaMedidaT34Imagem2,
+CalculaMedidaT34Imagem3} from "./calculos";
 
 /* ------------------------------ */
 /* OptimusPrimeCaminhao */
@@ -38,14 +40,16 @@ CalculaMedidaT34Imagem1} from "./calculos";
 // CalculaMedidaArdentClassFastFrigate(2.5);
 /* ------------------------------ */
 /* T34 */
-CalculaMedidaT34Imagem1(72);
+CalculaMedidaT34Imagem1(18);
+// CalculaMedidaT34Imagem2(20);
+// CalculaMedidaT34Imagem3(17);
 /* ------------------------------ */
 /* Jadgpanther */
 // CalculaMedidaJadgpanther(47);
 // CalculaMedidaJadgpanther2(48);
 /* ------------------------------ */
 /* Panther */
-// CalculaMedidaPanther(46);
+// CalculaMedidaPanther(16.5);
 // CalculaMedidaPanther2(51);
 /* ------------------------------ */
 /*
