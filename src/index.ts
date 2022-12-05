@@ -41,12 +41,12 @@ CalculaMedidaSu100Imagem1} from "./calculos";
 // CalculaMedidaArdentClassFastFrigate(2.5);
 /* ------------------------------ */
 /* T34 */
-// CalculaMedidaT34Imagem1(18);
+CalculaMedidaT34Imagem1(55);
 // CalculaMedidaT34Imagem2(20);
 // CalculaMedidaT34Imagem3(17);
 /* ------------------------------ */
 /* Su-100 */
-CalculaMedidaSu100Imagem1(31.5);
+// CalculaMedidaSu100Imagem1(31.5);
 /* ------------------------------ */
 /* Jadgpanther */
 // CalculaMedidaJadgpanther(47);
