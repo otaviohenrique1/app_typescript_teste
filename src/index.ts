@@ -6,10 +6,11 @@ CalculaMedidaJadgpanther,
 CalculaMedidaJadgpanther2,
 CalculaMedidaPanther,
 CalculaMedidaPanther2,
-CalculaMedidaT34Imagem1,
-CalculaMedidaT34Imagem2,
-CalculaMedidaT34Imagem3,
-CalculaMedidaSu100Imagem1} from "./calculos";
+CalculaMedidaT_34_76_Imagem1,
+CalculaMedidaT_34_76_Imagem2,
+CalculaMedidaT_34_76_Imagem3,
+CalculaMedida_Su_100_Imagem1,
+CalculaMedidaT_34_85_Imagem1} from "./calculos";
 
 /* ------------------------------ */
 /* OptimusPrimeCaminhao */
@@ -40,10 +41,13 @@ CalculaMedidaSu100Imagem1} from "./calculos";
 /* Ardent-class fast frigate */
 // CalculaMedidaArdentClassFastFrigate(2.5);
 /* ------------------------------ */
-/* T34 */
-CalculaMedidaT34Imagem1(55);
-// CalculaMedidaT34Imagem2(20);
-// CalculaMedidaT34Imagem3(17);
+/* T-34/76 */
+CalculaMedidaT_34_76_Imagem1(55);
+// CalculaMedidaT_34_76_Imagem2(20);
+// CalculaMedidaT_34_76_Imagem3(17);
+/* ------------------------------ */
+/* T-34/85 */
+// CalculaMedidaT_34_85_Imagem1(10);
 /* ------------------------------ */
 /* Su-100 */
 // CalculaMedidaSu100Imagem1(31.5);

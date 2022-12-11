@@ -319,7 +319,7 @@ export function CalculaMedidaMonitorClasseRoberts(valor_c: number) {
   ]));
 }
 
-export function CalculaMedidaT34Imagem1(valor_c: number) {
+export function CalculaMedidaT_34_76_Imagem1(valor_c: number) {
   /*
     175 - 250
     y     - x
@@ -331,14 +331,14 @@ export function CalculaMedidaT34Imagem1(valor_c: number) {
   let valorImagem: number = valor_c;
   let resultadoImagem1: number = Calculadora.CalculaMedida(175, 250, valorImagem);
   console.log(Calculadora.FormataCalculo([
-    'T-34',
+    'T-34/76',
     valorImagem.toString(),
     resultadoImagem1.toFixed(2),
     Math.round(resultadoImagem1).toString()
   ]));
 }
 
-export function CalculaMedidaT34Imagem2(valor_c: number) {
+export function CalculaMedidaT_34_76_Imagem2(valor_c: number) {
   /*
     260 - 175
     y     - x
@@ -350,14 +350,33 @@ export function CalculaMedidaT34Imagem2(valor_c: number) {
   let valorImagem: number = valor_c;
   let resultadoImagem1: number = Calculadora.CalculaMedida(260, 175, valorImagem);
   console.log(Calculadora.FormataCalculo([
-    'T-34',
+    'T-34/76',
     valorImagem.toString(),
     resultadoImagem1.toFixed(2),
     Math.round(resultadoImagem1).toString()
   ]));
 }
 
-export function CalculaMedidaT34Imagem3(valor_c: number) {
+export function CalculaMedidaT_34_85_Imagem1(valor_c: number) {
+  /*
+    131.5 - 250
+    y     - x
+    x = (250*y)/131.5
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(131.5, 250, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'T-34/85',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedidaT_34_76_Imagem3(valor_c: number) {
   /*
     165 - 175
     y     - x
@@ -369,14 +388,14 @@ export function CalculaMedidaT34Imagem3(valor_c: number) {
   let valorImagem: number = valor_c;
   let resultadoImagem1: number = Calculadora.CalculaMedida(165, 175, valorImagem);
   console.log(Calculadora.FormataCalculo([
-    'T-34',
+    'T-34/76',
     valorImagem.toString(),
     resultadoImagem1.toFixed(2),
     Math.round(resultadoImagem1).toString()
   ]));
 }
 
-export function CalculaMedidaSu100Imagem1(valor_c: number) {
+export function CalculaMedida_Su_100_Imagem1(valor_c: number) {
   /*
     118 - 250
     y   - x
