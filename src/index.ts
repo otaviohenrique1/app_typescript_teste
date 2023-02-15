@@ -42,12 +42,12 @@ CalculaMedidaT_34_85_Imagem1} from "./calculos";
 // CalculaMedidaArdentClassFastFrigate(2.5);
 /* ------------------------------ */
 /* T-34/76 */
-// CalculaMedidaT_34_76_Imagem1(4.5);
+CalculaMedidaT_34_76_Imagem1(25.5);
 // CalculaMedidaT_34_76_Imagem2(20);
 // CalculaMedidaT_34_76_Imagem3(17);
 /* ------------------------------ */
 /* T-34/85 */
-CalculaMedidaT_34_85_Imagem1(20);
+// CalculaMedidaT_34_85_Imagem1(19);
 /* ------------------------------ */
 /* Su-100 */
 // CalculaMedida_Su_100_Imagem1(6);
