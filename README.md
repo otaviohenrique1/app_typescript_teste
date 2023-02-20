@@ -4,7 +4,7 @@
 
 ### Gerar package.json
 
-- npm --init
+- npm init
 
 ### Pacotes
 

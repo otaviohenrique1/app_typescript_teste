@@ -42,9 +42,9 @@ CalculaMedidaT_34_85_Imagem1} from "./calculos";
 // CalculaMedidaArdentClassFastFrigate(2.5);
 /* ------------------------------ */
 /* T-34/76 */
-CalculaMedidaT_34_76_Imagem1(25.5);
+CalculaMedidaT_34_76_Imagem1(12);
 // CalculaMedidaT_34_76_Imagem2(20);
-// CalculaMedidaT_34_76_Imagem3(17);
+// CalculaMedidaT_34_76_Imagem3(11);
 /* ------------------------------ */
 /* T-34/85 */
 // CalculaMedidaT_34_85_Imagem1(19);

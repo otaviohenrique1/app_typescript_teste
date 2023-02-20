@@ -2,7 +2,7 @@
   "name": "app_typescript_teste",
   "version": "1.0.0",
   "description": "app typescript teste",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/index.ts",
