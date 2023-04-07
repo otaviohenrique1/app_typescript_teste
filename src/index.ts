@@ -1,16 +1,19 @@
-import { CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMedidaLeopard2Imagem4, CalculaMedidaLeopard2Imagem4_1, CalculaMedidaLeopard2Imagem5,
-CalculaMedidaBTR80Imagem1,
-CalculaMedidaArdentClassFastFrigate,
-CalculaMedidaMonitorClasseRoberts,
-CalculaMedidaJadgpanther,
-CalculaMedidaJadgpanther2,
-CalculaMedidaPanther,
-CalculaMedidaPanther2,
-CalculaMedidaT_34_76_Imagem1,
-CalculaMedidaT_34_76_Imagem2,
-CalculaMedidaT_34_76_Imagem3,
-CalculaMedida_Su_100_Imagem1,
-CalculaMedidaT_34_85_Imagem1} from "./calculos";
+import {
+  CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMedidaLeopard2Imagem4, CalculaMedidaLeopard2Imagem4_1, CalculaMedidaLeopard2Imagem5,
+  CalculaMedidaBTR80Imagem1,
+  CalculaMedidaArdentClassFastFrigate,
+  CalculaMedidaMonitorClasseRoberts,
+  CalculaMedidaJadgpanther,
+  CalculaMedidaJadgpanther2,
+  CalculaMedidaPanther,
+  CalculaMedidaPanther2,
+  CalculaMedidaT_34_76_Imagem1,
+  CalculaMedidaT_34_76_Imagem2,
+  CalculaMedidaT_34_76_Imagem3,
+  CalculaMedida_Su_100_Imagem1,
+  CalculaMedidaT_34_85_Imagem1,
+  CalculaMedidaNavioImagem1
+} from "./calculos";
 
 /* ------------------------------ */
 /* OptimusPrimeCaminhao */
@@ -42,9 +45,9 @@ CalculaMedidaT_34_85_Imagem1} from "./calculos";
 // CalculaMedidaArdentClassFastFrigate(2.5);
 /* ------------------------------ */
 /* T-34/76 */
-CalculaMedidaT_34_76_Imagem1(12);
+CalculaMedidaT_34_76_Imagem1(6);
 // CalculaMedidaT_34_76_Imagem2(20);
-// CalculaMedidaT_34_76_Imagem3(11);
+// CalculaMedidaT_34_76_Imagem3(7);
 /* ------------------------------ */
 /* T-34/85 */
 // CalculaMedidaT_34_85_Imagem1(19);

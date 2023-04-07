@@ -413,3 +413,22 @@ export function CalculaMedida_Su_100_Imagem1(valor_c: number) {
     Math.round(resultadoImagem1).toString()
   ]));
 }
+
+export function CalculaMedidaNavioImagem1(valor_c: number) {
+  /*
+    420 - 600
+    y   - x
+    x = (600*y)/420
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(420, 600, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'Navio',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
