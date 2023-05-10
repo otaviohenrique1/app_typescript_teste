@@ -432,3 +432,22 @@ export function CalculaMedidaDidoClassLightCruiserImagem1(valor_c: number) {
     Math.round(resultadoImagem1).toString()
   ]));
 }
+
+export function CalculaMedidaDidoClassLightCruiserImagem2(valor_c: number) {
+  /*
+    20 - 100
+    y   - x
+    x = (100*y)/20
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(20, 100, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'DidoClassLightCruiser2',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
