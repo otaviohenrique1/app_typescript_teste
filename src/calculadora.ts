@@ -169,3 +169,12 @@ export function CalculaPerimetroCirculo(valor: number): void {
   let resultadoImagem: string = Math.round(perimetroCirculo).toString();
   console.log(resultadoImagem);
 }
+
+
+export function numeroDivisivel(numero: number): string[] {
+  let lista: string[] = [];
+  for (let i = 1; i <= 9; i++) {
+    lista.push(`${i} => ${(numero/(i)).toFixed(2)}`);
+  }
+  return lista;
+}

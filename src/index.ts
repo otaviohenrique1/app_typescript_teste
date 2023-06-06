@@ -1,3 +1,4 @@
+import { numeroDivisivel } from "./calculadora";
 import {
   CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMedidaLeopard2Imagem4, CalculaMedidaLeopard2Imagem4_1, CalculaMedidaLeopard2Imagem5,
   CalculaMedidaBTR80Imagem1,
@@ -13,7 +14,10 @@ import {
   CalculaMedida_Su_100_Imagem1,
   CalculaMedidaT_34_85_Imagem1,
   CalculaMedidaDidoClassLightCruiserImagem1,
-  CalculaMedidaDidoClassLightCruiserImagem2
+  CalculaMedidaDidoClassLightCruiserImagem2,
+  CalculaMedidaTarawaClassAmphibiousAssaultShip,
+  CalculaMedidaArleighBurkeClassDestroyer,
+  CalculaMedidaTarawaClassAmphibiousAssaultShip2
 } from "./calculos";
 
 /* ------------------------------ */
@@ -46,12 +50,12 @@ import {
 // CalculaMedidaArdentClassFastFrigate(2.5);
 /* ------------------------------ */
 /* T-34/76 */
-CalculaMedidaT_34_76_Imagem1(4.5);
+// CalculaMedidaT_34_76_Imagem1(20);
 // CalculaMedidaT_34_76_Imagem2(20);
 // CalculaMedidaT_34_76_Imagem3(7);
 /* ------------------------------ */
 /* T-34/85 */
-// CalculaMedidaT_34_85_Imagem1(22.5);
+// CalculaMedidaT_34_85_Imagem1(5);
 /* ------------------------------ */
 /* Su-100 */
 // CalculaMedida_Su_100_Imagem1(8);
@@ -65,7 +69,21 @@ CalculaMedidaT_34_76_Imagem1(4.5);
 // CalculaMedidaPanther2(51);
 /* ------------------------------ */
 // CalculaMedidaDidoClassLightCruiserImagem2(510);
+/* ------------------------------ */
+CalculaMedidaTarawaClassAmphibiousAssaultShip(23.5);
+// CalculaMedidaTarawaClassAmphibiousAssaultShip2(104);
+/*
+  CalculaMedidaTarawaClassAmphibiousAssaultShip
+  Largura deck => 96 => 112
+  Largura casco => 76
+  Altura casco => 66
+*/
+// CalculaMedidaTarawaClassAmphibiousAssaultShip(59.5);
+// CalculaMedidaTarawaClassAmphibiousAssaultShip(41);
+// CalculaMedidaArleighBurkeClassDestroyer(30);
 /*
 174 ------ 300
 171 ------ 300
 */
+
+// console.log(numeroDivisivel(250));
