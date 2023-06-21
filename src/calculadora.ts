@@ -178,3 +178,11 @@ export function numeroDivisivel(numero: number): string[] {
   }
   return lista;
 }
+
+export function numeroMultiplos(numero1: number, numero2: number): string[] {
+  let lista: string[] = [];
+  for (let i = 1; i <= numero2; i++) {
+    lista.push(`${i} => ${(numero1*(i)).toFixed(2)}`);
+  }
+  return lista;
+}

@@ -1,4 +1,4 @@
-import { numeroDivisivel } from "./calculadora";
+import { numeroDivisivel, numeroMultiplos } from "./calculadora";
 import {
   CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMedidaLeopard2Imagem4, CalculaMedidaLeopard2Imagem4_1, CalculaMedidaLeopard2Imagem5,
   CalculaMedidaBTR80Imagem1,
@@ -17,7 +17,9 @@ import {
   CalculaMedidaDidoClassLightCruiserImagem2,
   CalculaMedidaTarawaClassAmphibiousAssaultShip,
   CalculaMedidaArleighBurkeClassDestroyer,
-  CalculaMedidaTarawaClassAmphibiousAssaultShip2
+  CalculaMedidaTarawaClassAmphibiousAssaultShip2,
+  CalculaMedidaArleighBurkeClassDestroyer2,
+  CalculaMedidaAMX10RC
 } from "./calculos";
 
 /* ------------------------------ */
@@ -58,7 +60,7 @@ import {
 // CalculaMedidaT_34_85_Imagem1(5);
 /* ------------------------------ */
 /* Su-100 */
-// CalculaMedida_Su_100_Imagem1(8);
+// CalculaMedida_Su_100_Imagem1(20);
 /* ------------------------------ */
 /* Jadgpanther */
 // CalculaMedidaJadgpanther(47);
@@ -70,8 +72,8 @@ import {
 /* ------------------------------ */
 // CalculaMedidaDidoClassLightCruiserImagem2(510);
 /* ------------------------------ */
-CalculaMedidaTarawaClassAmphibiousAssaultShip(23.5);
-// CalculaMedidaTarawaClassAmphibiousAssaultShip2(104);
+// CalculaMedidaTarawaClassAmphibiousAssaultShip(23);
+// CalculaMedidaTarawaClassAmphibiousAssaultShip2(104); 
 /*
   CalculaMedidaTarawaClassAmphibiousAssaultShip
   Largura deck => 96 => 112
@@ -80,10 +82,13 @@ CalculaMedidaTarawaClassAmphibiousAssaultShip(23.5);
 */
 // CalculaMedidaTarawaClassAmphibiousAssaultShip(59.5);
 // CalculaMedidaTarawaClassAmphibiousAssaultShip(41);
-// CalculaMedidaArleighBurkeClassDestroyer(30);
+// CalculaMedidaArleighBurkeClassDestroyer(5);
+// CalculaMedidaArleighBurkeClassDestroyer2(4);
+CalculaMedidaAMX10RC(39);
 /*
 174 ------ 300
 171 ------ 300
 */
 
 // console.log(numeroDivisivel(250));
+// console.log(numeroMultiplos(87, 20));

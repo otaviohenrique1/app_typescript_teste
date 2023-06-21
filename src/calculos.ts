@@ -414,11 +414,30 @@ export function CalculaMedida_Su_100_Imagem1(valor_c: number) {
   ]));
 }
 
+export function CalculaMedidaAMX10RC(valor_c: number) {
+  /*
+    137 - 300
+    y     - x
+    x = (300*y)/137
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(137, 300, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'amx-10rc',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
 export function CalculaMedidaTarawaClassAmphibiousAssaultShip(valor_c: number) {
   /*
-    388 - 600
+    388 - 700
     y     - x
-    x = (600*y)/388
+    x = (700*y)/388
     a - b
     c - x
     x = (b*c)/a
@@ -454,17 +473,36 @@ export function CalculaMedidaTarawaClassAmphibiousAssaultShip2(valor_c: number) 
 
 export function CalculaMedidaArleighBurkeClassDestroyer(valor_c: number) {
   /*
-    223 - 600
+    259 - 700
     y     - x
-    x = (600*y)/223
+    x = (700*y)/259
     a - b
     c - x
     x = (b*c)/a
   */
   let valorImagem: number = valor_c;
-  let resultadoImagem1: number = Calculadora.CalculaMedida(223, 600, valorImagem);
+  let resultadoImagem1: number = Calculadora.CalculaMedida(259, 700, valorImagem);
   console.log(Calculadora.FormataCalculo([
     'ArleighBurkeClassDestroyer',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedidaArleighBurkeClassDestroyer2(valor_c: number) {
+  /*
+    224 - 259
+    y     - x
+    x = (259*y)/224
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(224, 259, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'ArleighBurkeClassDestroyer2',
     valorImagem.toString(),
     resultadoImagem1.toFixed(2),
     Math.round(resultadoImagem1).toString()
