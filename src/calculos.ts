@@ -433,6 +433,120 @@ export function CalculaMedidaAMX10RC(valor_c: number) {
   ]));
 }
 
+export function CalculaMedida_T_90(valor_c: number) {
+  /*
+    124 - 250
+    y     - x
+    x = (250*y)/124
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(124, 250, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'T-90',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedidaTiconderogaClassCruiser(valor_c: number) {
+  /*
+    342 - 600
+    y     - x
+    x = (600*y)/342
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(342, 600, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'TiconderogaClassCruiser',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedida_HMS_Dreadnought_1910_Battleship(valor_c: number) {
+  /*
+    342 - 700
+    y     - x
+    x = (700*y)/342
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(342, 700, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'HMS_Dreadnought',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedidaIowaClassBattleship(valor_c: number) {
+  /*
+    286 - 800
+    y   - x
+    x = (800*y)/286
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(286, 800, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'IowaClassBattleship',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedida_USS_Salt_Lake_City_1944_Heavy_Cruiser(valor_c: number) {
+  /*
+    288 - 800
+    y   - x
+    x = (800*y)/288
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(288, 800, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'USS_Salt_Lake_City',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedida_HMS_Lance_1940_Destroyer(valor_c: number) {
+  /*
+    278 - 700
+    y   - x
+    x = (700*y)/278
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(278, 700, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'HMS_Lance_1940_Destroyer',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
 export function CalculaMedidaTarawaClassAmphibiousAssaultShip(valor_c: number) {
   /*
     388 - 700

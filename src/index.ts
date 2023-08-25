@@ -19,7 +19,13 @@ import {
   CalculaMedidaArleighBurkeClassDestroyer,
   CalculaMedidaTarawaClassAmphibiousAssaultShip2,
   CalculaMedidaArleighBurkeClassDestroyer2,
-  CalculaMedidaAMX10RC
+  CalculaMedidaAMX10RC,
+  CalculaMedidaTiconderogaClassCruiser,
+  CalculaMedidaIowaClassBattleship,
+  CalculaMedida_USS_Salt_Lake_City_1944_Heavy_Cruiser,
+  CalculaMedida_HMS_Lance_1940_Destroyer,
+  CalculaMedida_T_90,
+  CalculaMedida_HMS_Dreadnought_1910_Battleship
 } from "./calculos";
 
 /* ------------------------------ */
@@ -52,15 +58,15 @@ import {
 // CalculaMedidaArdentClassFastFrigate(2.5);
 /* ------------------------------ */
 /* T-34/76 */
-// CalculaMedidaT_34_76_Imagem1(20);
+// CalculaMedidaT_34_76_Imagem1(12);
 // CalculaMedidaT_34_76_Imagem2(20);
 // CalculaMedidaT_34_76_Imagem3(7);
 /* ------------------------------ */
 /* T-34/85 */
-// CalculaMedidaT_34_85_Imagem1(5);
+// CalculaMedidaT_34_85_Imagem1(9.5);
 /* ------------------------------ */
 /* Su-100 */
-// CalculaMedida_Su_100_Imagem1(20);
+// CalculaMedida_Su_100_Imagem1(24);
 /* ------------------------------ */
 /* Jadgpanther */
 // CalculaMedidaJadgpanther(47);
@@ -71,20 +77,20 @@ import {
 // CalculaMedidaPanther2(51);
 /* ------------------------------ */
 // CalculaMedidaDidoClassLightCruiserImagem2(510);
-/* ------------------------------ */
-// CalculaMedidaTarawaClassAmphibiousAssaultShip(23);
+CalculaMedidaTarawaClassAmphibiousAssaultShip(23);
 // CalculaMedidaTarawaClassAmphibiousAssaultShip2(104); 
-/*
-  CalculaMedidaTarawaClassAmphibiousAssaultShip
-  Largura deck => 96 => 112
-  Largura casco => 76
-  Altura casco => 66
-*/
 // CalculaMedidaTarawaClassAmphibiousAssaultShip(59.5);
 // CalculaMedidaTarawaClassAmphibiousAssaultShip(41);
 // CalculaMedidaArleighBurkeClassDestroyer(5);
 // CalculaMedidaArleighBurkeClassDestroyer2(4);
-CalculaMedidaAMX10RC(39);
+// CalculaMedidaTiconderogaClassCruiser(6);
+// CalculaMedidaIowaClassBattleship(5);
+// CalculaMedida_USS_Salt_Lake_City_1944_Heavy_Cruiser(23);124.5
+// CalculaMedida_HMS_Lance_1940_Destroyer(16);
+// CalculaMedida_HMS_Dreadnought_1910_Battleship(5);
+// CalculaMedidaAMX10RC(28);
+// CalculaMedida_T_90(15);
+/* ------------------------------ */
 /*
 174 ------ 300
 171 ------ 300
