@@ -24,7 +24,7 @@ import {
   CalculaMedidaIowaClassBattleship,
   CalculaMedida_USS_Salt_Lake_City_1944_Heavy_Cruiser,
   CalculaMedida_HMS_Lance_1940_Destroyer,
-  CalculaMedida_T_90,
+  CalculaMedida_T_90_Imagem_1,
   CalculaMedida_HMS_Dreadnought_1910_Battleship
 } from "./calculos";
 
@@ -77,7 +77,7 @@ import {
 // CalculaMedidaPanther2(51);
 /* ------------------------------ */
 // CalculaMedidaDidoClassLightCruiserImagem2(510);
-CalculaMedidaTarawaClassAmphibiousAssaultShip(23);
+// CalculaMedidaTarawaClassAmphibiousAssaultShip(23);
 // CalculaMedidaTarawaClassAmphibiousAssaultShip2(104); 
 // CalculaMedidaTarawaClassAmphibiousAssaultShip(59.5);
 // CalculaMedidaTarawaClassAmphibiousAssaultShip(41);
@@ -89,7 +89,7 @@ CalculaMedidaTarawaClassAmphibiousAssaultShip(23);
 // CalculaMedida_HMS_Lance_1940_Destroyer(16);
 // CalculaMedida_HMS_Dreadnought_1910_Battleship(5);
 // CalculaMedidaAMX10RC(28);
-// CalculaMedida_T_90(15);
+CalculaMedida_T_90_Imagem_1(19);
 /* ------------------------------ */
 /*
 174 ------ 300

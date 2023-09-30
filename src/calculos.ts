@@ -417,7 +417,7 @@ export function CalculaMedida_Su_100_Imagem1(valor_c: number) {
 export function CalculaMedidaAMX10RC(valor_c: number) {
   /*
     137 - 300
-    y     - x
+    y   - x
     x = (300*y)/137
     a - b
     c - x
@@ -433,10 +433,10 @@ export function CalculaMedidaAMX10RC(valor_c: number) {
   ]));
 }
 
-export function CalculaMedida_T_90(valor_c: number) {
+export function CalculaMedida_T_90_Imagem_1(valor_c: number) {
   /*
     124 - 250
-    y     - x
+    y   - x
     x = (250*y)/124
     a - b
     c - x
@@ -445,7 +445,45 @@ export function CalculaMedida_T_90(valor_c: number) {
   let valorImagem: number = valor_c;
   let resultadoImagem1: number = Calculadora.CalculaMedida(124, 250, valorImagem);
   console.log(Calculadora.FormataCalculo([
-    'T-90',
+    'T-90 - Imagem 1',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedida_T_90_Imagem_2(valor_c: number) {
+  /*
+    126 - 124
+    y   - x
+    x = (124*y)/126
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(126, 124, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'T-90 - Imagem 2',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedida_T_90_Imagem_3(valor_c: number) {
+  /*
+    175 - 124
+    y   - x
+    x = (124*y)/175
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(175, 124, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'T-90 - Imagem 3',
     valorImagem.toString(),
     resultadoImagem1.toFixed(2),
     Math.round(resultadoImagem1).toString()
