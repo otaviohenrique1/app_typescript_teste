@@ -25,7 +25,9 @@ import {
   CalculaMedida_USS_Salt_Lake_City_1944_Heavy_Cruiser,
   CalculaMedida_HMS_Lance_1940_Destroyer,
   CalculaMedida_T_90_Imagem_1,
-  CalculaMedida_HMS_Dreadnought_1910_Battleship
+  CalculaMedida_HMS_Dreadnought_1910_Battleship,
+  CalculaMedida_T_90_Imagem_2,
+  CalculaMedida_T_90_Imagem_3
 } from "./calculos";
 
 /* ------------------------------ */
@@ -89,7 +91,9 @@ import {
 // CalculaMedida_HMS_Lance_1940_Destroyer(16);
 // CalculaMedida_HMS_Dreadnought_1910_Battleship(5);
 // CalculaMedidaAMX10RC(28);
-CalculaMedida_T_90_Imagem_1(19);
+CalculaMedida_T_90_Imagem_1(42);
+// CalculaMedida_T_90_Imagem_2(19);
+// CalculaMedida_T_90_Imagem_3(59);
 /* ------------------------------ */
 /*
 174 ------ 300
