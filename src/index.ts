@@ -27,7 +27,8 @@ import {
   CalculaMedida_T_90_Imagem_1,
   CalculaMedida_HMS_Dreadnought_1910_Battleship,
   CalculaMedida_T_90_Imagem_2,
-  CalculaMedida_T_90_Imagem_3
+  CalculaMedida_T_90_Imagem_3,
+  CalculaMedidaPanhardVBL
 } from "./calculos";
 
 /* ------------------------------ */
@@ -60,15 +61,17 @@ import {
 // CalculaMedidaArdentClassFastFrigate(2.5);
 /* ------------------------------ */
 /* T-34/76 */
-// CalculaMedidaT_34_76_Imagem1(12);
+// CalculaMedidaT_34_76_Imagem1(16);
 // CalculaMedidaT_34_76_Imagem2(20);
 // CalculaMedidaT_34_76_Imagem3(7);
 /* ------------------------------ */
 /* T-34/85 */
-// CalculaMedidaT_34_85_Imagem1(9.5);
+// CalculaMedidaT_34_85_Imagem1(5.38);
 /* ------------------------------ */
 /* Su-100 */
 // CalculaMedida_Su_100_Imagem1(24);
+/* ------------------------------ */
+CalculaMedidaPanhardVBL(33);
 /* ------------------------------ */
 /* Jadgpanther */
 // CalculaMedidaJadgpanther(47);
@@ -91,7 +94,7 @@ import {
 // CalculaMedida_HMS_Lance_1940_Destroyer(16);
 // CalculaMedida_HMS_Dreadnought_1910_Battleship(5);
 // CalculaMedidaAMX10RC(28);
-CalculaMedida_T_90_Imagem_1(42);
+// CalculaMedida_T_90_Imagem_1(42);
 // CalculaMedida_T_90_Imagem_2(19);
 // CalculaMedida_T_90_Imagem_3(59);
 /* ------------------------------ */

@@ -414,6 +414,25 @@ export function CalculaMedida_Su_100_Imagem1(valor_c: number) {
   ]));
 }
 
+export function CalculaMedidaPanhardVBL(valor_c: number) {
+  /*
+    117 - 200
+    y     - x
+    x = (200*y)/117
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(117, 200, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'PanhardVBL',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
 export function CalculaMedidaAMX10RC(valor_c: number) {
   /*
     137 - 300
