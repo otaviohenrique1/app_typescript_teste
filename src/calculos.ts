@@ -433,6 +433,44 @@ export function CalculaMedidaPanhardVBL(valor_c: number) {
   ]));
 }
 
+export function CalculaMedidaA27MCromwell(valor_c: number) {
+  /*
+    182 - 250
+    y     - x
+    x = (250*y)/182
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(182, 250, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'A27MCromwell',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedidaA27MCromwellImagem2(valor_c: number) {
+  /*
+    184 - 182
+    y     - x
+    x = (182*y)/184
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(184, 182, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'A27MCromwell',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
 export function CalculaMedidaAMX10RC(valor_c: number) {
   /*
     137 - 300

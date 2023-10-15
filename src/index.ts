@@ -28,7 +28,9 @@ import {
   CalculaMedida_HMS_Dreadnought_1910_Battleship,
   CalculaMedida_T_90_Imagem_2,
   CalculaMedida_T_90_Imagem_3,
-  CalculaMedidaPanhardVBL
+  CalculaMedidaPanhardVBL,
+  CalculaMedidaA27MCromwell,
+  CalculaMedidaA27MCromwellImagem2
 } from "./calculos";
 
 /* ------------------------------ */
@@ -71,7 +73,10 @@ import {
 /* Su-100 */
 // CalculaMedida_Su_100_Imagem1(24);
 /* ------------------------------ */
-CalculaMedidaPanhardVBL(33);
+CalculaMedidaA27MCromwell(5);
+// CalculaMedidaA27MCromwellImagem2(14.75);
+/* ------------------------------ */
+// CalculaMedidaPanhardVBL(33);
 /* ------------------------------ */
 /* Jadgpanther */
 // CalculaMedidaJadgpanther(47);
