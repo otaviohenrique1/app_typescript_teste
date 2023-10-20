@@ -73,8 +73,8 @@ import {
 /* Su-100 */
 // CalculaMedida_Su_100_Imagem1(24);
 /* ------------------------------ */
-CalculaMedidaA27MCromwell(5);
-// CalculaMedidaA27MCromwellImagem2(14.75);
+CalculaMedidaA27MCromwell(11);
+// CalculaMedidaA27MCromwellImagem2(17.5);
 /* ------------------------------ */
 // CalculaMedidaPanhardVBL(33);
 /* ------------------------------ */
