@@ -30,7 +30,8 @@ import {
   CalculaMedida_T_90_Imagem_3,
   CalculaMedidaPanhardVBL,
   CalculaMedidaA27MCromwell,
-  CalculaMedidaA27MCromwellImagem2
+  CalculaMedidaA27MCromwellImagem2,
+  CalculaMedidaBismarckClassBattleship
 } from "./calculos";
 
 /* ------------------------------ */
@@ -73,9 +74,10 @@ import {
 /* Su-100 */
 // CalculaMedida_Su_100_Imagem1(24);
 /* ------------------------------ */
-CalculaMedidaA27MCromwell(82);
+CalculaMedidaA27MCromwell(58);
 // CalculaMedidaA27MCromwellImagem2(17.5);
 /* ------------------------------ */
+// CalculaMedidaBismarckClassBattleship(6); 
 // CalculaMedidaPanhardVBL(33);
 /* ------------------------------ */
 /* Jadgpanther */

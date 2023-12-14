@@ -547,6 +547,25 @@ export function CalculaMedida_T_90_Imagem_3(valor_c: number) {
   ]));
 }
 
+export function CalculaMedidaBismarckClassBattleship(valor_c: number) {
+  /*
+    424 - 800
+    y     - x
+    x = (800*y)/424
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(424, 800, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'BismarckClassBattleship',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
 export function CalculaMedidaTiconderogaClassCruiser(valor_c: number) {
   /*
     342 - 600
