@@ -31,14 +31,15 @@ import {
   CalculaMedidaPanhardVBL,
   CalculaMedidaA27MCromwell,
   CalculaMedidaA27MCromwellImagem2,
-  CalculaMedidaBismarckClassBattleship
+  CalculaMedidaBismarckClassBattleship,
+  CalculaMedidaTarawaClassAmphibiousAssaultShip3
 } from "./calculos";
 
 /* ------------------------------ */
 /* OptimusPrimeCaminhao */
 // CalculaMedidaOptimusPrimeCaminhaoImagem1(26);
 /* ------------------------------ */
-/* UssKelvins */
+/* UssKelvin */
 // CalculaMedidaUssKelvinImagem1(1);
 /* ------------------------------ */
 /* FletcherClassDestroyer */
@@ -74,7 +75,7 @@ import {
 /* Su-100 */
 // CalculaMedida_Su_100_Imagem1(24);
 /* ------------------------------ */
-CalculaMedidaA27MCromwell(58);
+CalculaMedidaA27MCromwell(7);
 // CalculaMedidaA27MCromwellImagem2(17.5);
 /* ------------------------------ */
 // CalculaMedidaBismarckClassBattleship(6); 
@@ -88,11 +89,12 @@ CalculaMedidaA27MCromwell(58);
 // CalculaMedidaPanther(16.5);
 // CalculaMedidaPanther2(51);
 /* ------------------------------ */
-// CalculaMedidaDidoClassLightCruiserImagem2(510);
 // CalculaMedidaTarawaClassAmphibiousAssaultShip(23);
-// CalculaMedidaTarawaClassAmphibiousAssaultShip2(104); 
-// CalculaMedidaTarawaClassAmphibiousAssaultShip(59.5);
-// CalculaMedidaTarawaClassAmphibiousAssaultShip(41);
+// CalculaMedidaTarawaClassAmphibiousAssaultShip2(104); 18->9
+// CalculaMedidaTarawaClassAmphibiousAssaultShip(2);
+// CalculaMedidaTarawaClassAmphibiousAssaultShip3(6);
+/* ------------------------------ */
+// CalculaMedidaDidoClassLightCruiserImagem2(510);
 // CalculaMedidaArleighBurkeClassDestroyer(5);
 // CalculaMedidaArleighBurkeClassDestroyer2(4);
 // CalculaMedidaTiconderogaClassCruiser(6);

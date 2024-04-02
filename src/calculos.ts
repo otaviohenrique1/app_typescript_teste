@@ -699,6 +699,25 @@ export function CalculaMedidaTarawaClassAmphibiousAssaultShip2(valor_c: number) 
   ]));
 }
 
+export function CalculaMedidaTarawaClassAmphibiousAssaultShip3(valor_c: number) {
+  /*
+    167 - 50
+    y   - x
+    x = (50*y)/167
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(167, 50, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'TarawaClassAmphibiousAssaultShip',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
 export function CalculaMedidaArleighBurkeClassDestroyer(valor_c: number) {
   /*
     259 - 700
