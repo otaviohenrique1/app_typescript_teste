@@ -75,8 +75,10 @@ import {
 /* Su-100 */
 // CalculaMedida_Su_100_Imagem1(24);
 /* ------------------------------ */
-CalculaMedidaA27MCromwell(7);
+// CalculaMedidaA27MCromwell(11);
 // CalculaMedidaA27MCromwellImagem2(17.5);
+/* ------------------------------ */
+CalculaMedidaAMX10RC(15);
 /* ------------------------------ */
 // CalculaMedidaBismarckClassBattleship(6); 
 // CalculaMedidaPanhardVBL(33);
@@ -102,7 +104,6 @@ CalculaMedidaA27MCromwell(7);
 // CalculaMedida_USS_Salt_Lake_City_1944_Heavy_Cruiser(23);124.5
 // CalculaMedida_HMS_Lance_1940_Destroyer(16);
 // CalculaMedida_HMS_Dreadnought_1910_Battleship(5);
-// CalculaMedidaAMX10RC(28);
 // CalculaMedida_T_90_Imagem_1(42);
 // CalculaMedida_T_90_Imagem_2(19);
 // CalculaMedida_T_90_Imagem_3(59);
