@@ -75,12 +75,13 @@ import {
 /* Su-100 */
 // CalculaMedida_Su_100_Imagem1(24);
 /* ------------------------------ */
-CalculaMedidaA27MCromwell(11);
+// CalculaMedidaA27MCromwell(11);
 // CalculaMedidaA27MCromwellImagem2(17.5);
 /* ------------------------------ */
-// CalculaMedidaAMX10RC(15);
+CalculaMedidaAMX10RC(12);
 /* ------------------------------ */
 // CalculaMedidaBismarckClassBattleship(6); 
+/* ------------------------------ */
 // CalculaMedidaPanhardVBL(33);
 /* ------------------------------ */
 /* Jadgpanther */
