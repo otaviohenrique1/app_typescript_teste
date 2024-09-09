@@ -20,6 +20,7 @@ import {
   CalculaMedidaTarawaClassAmphibiousAssaultShip2,
   CalculaMedidaArleighBurkeClassDestroyer2,
   CalculaMedidaAMX10RC,
+  CalculaMedidaPanhardAML90,
   CalculaMedidaTiconderogaClassCruiser,
   CalculaMedidaIowaClassBattleship,
   CalculaMedida_USS_Salt_Lake_City_1944_Heavy_Cruiser,
@@ -32,7 +33,8 @@ import {
   CalculaMedidaA27MCromwell,
   CalculaMedidaA27MCromwellImagem2,
   CalculaMedidaBismarckClassBattleship,
-  CalculaMedidaTarawaClassAmphibiousAssaultShip3
+  CalculaMedidaTarawaClassAmphibiousAssaultShip3,
+  CalculaMedidaType23frigate
 } from "./calculos";
 
 /* ------------------------------ */
@@ -78,7 +80,11 @@ import {
 // CalculaMedidaA27MCromwell(11);
 // CalculaMedidaA27MCromwellImagem2(17.5);
 /* ------------------------------ */
-CalculaMedidaAMX10RC(12);
+// CalculaMedidaAMX10RC(3.5);
+/* ------------------------------ */
+// CalculaMedidaPanhardAML90(13.5);
+/* ------------------------------ */
+CalculaMedidaType23frigate(577)
 /* ------------------------------ */
 // CalculaMedidaBismarckClassBattleship(6); 
 /* ------------------------------ */

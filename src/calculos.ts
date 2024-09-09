@@ -490,6 +490,44 @@ export function CalculaMedidaAMX10RC(valor_c: number) {
   ]));
 }
 
+export function CalculaMedidaPanhardAML90(valor_c: number) {
+  /*
+    137 - 300
+    y   - x
+    x = (300*y)/137
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(137, 300, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'amx-10rc',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
+export function CalculaMedidaType23frigate(valor_c: number) {
+  /*
+    69 - 120
+    y   - x
+    x = (120*y)/69
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(69, 120, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'Type23frigate',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
 export function CalculaMedida_T_90_Imagem_1(valor_c: number) {
   /*
     124 - 250
