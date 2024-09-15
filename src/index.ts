@@ -34,7 +34,8 @@ import {
   CalculaMedidaA27MCromwellImagem2,
   CalculaMedidaBismarckClassBattleship,
   CalculaMedidaTarawaClassAmphibiousAssaultShip3,
-  CalculaMedidaType23frigate
+  CalculaMedidaType23frigate,
+  CalculaMedidaType23frigate2
 } from "./calculos";
 
 /* ------------------------------ */
@@ -84,7 +85,8 @@ import {
 /* ------------------------------ */
 // CalculaMedidaPanhardAML90(13.5);
 /* ------------------------------ */
-CalculaMedidaType23frigate(577)
+// CalculaMedidaType23frigate(577);
+CalculaMedidaType23frigate2(50);
 /* ------------------------------ */
 // CalculaMedidaBismarckClassBattleship(6); 
 /* ------------------------------ */
