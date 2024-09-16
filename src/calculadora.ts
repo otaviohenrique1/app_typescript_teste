@@ -186,3 +186,11 @@ export function numeroMultiplos(numero1: number, numero2: number): string[] {
   }
   return lista;
 }
+
+export function listaDeMultiplosDeUmNumero(numero: number, vezes: number) {
+  const lista = [];
+  for (let i = 1; i <= vezes; i++) {
+    lista.push(i * numero);
+  }
+  console.log(lista);
+}

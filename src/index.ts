@@ -1,4 +1,4 @@
-import { numeroDivisivel, numeroMultiplos } from "./calculadora";
+import { listaDeMultiplosDeUmNumero, numeroDivisivel, numeroMultiplos } from "./calculadora";
 import {
   CalculaMedidaLeopard2Imagem1, CalculaMedidaLeopard2Imagem10, CalculaMedidaLeopard2Imagem4, CalculaMedidaLeopard2Imagem4_1, CalculaMedidaLeopard2Imagem5,
   CalculaMedidaBTR80Imagem1,
@@ -35,7 +35,8 @@ import {
   CalculaMedidaBismarckClassBattleship,
   CalculaMedidaTarawaClassAmphibiousAssaultShip3,
   CalculaMedidaType23frigate,
-  CalculaMedidaType23frigate2
+  CalculaMedidaType23frigate2,
+  CalculaMedidaType23frigate3
 } from "./calculos";
 
 /* ------------------------------ */
@@ -86,7 +87,8 @@ import {
 // CalculaMedidaPanhardAML90(13.5);
 /* ------------------------------ */
 // CalculaMedidaType23frigate(577);
-CalculaMedidaType23frigate2(50);
+// CalculaMedidaType23frigate2(50);
+CalculaMedidaType23frigate3(1.5);
 /* ------------------------------ */
 // CalculaMedidaBismarckClassBattleship(6); 
 /* ------------------------------ */
@@ -124,3 +126,4 @@ CalculaMedidaType23frigate2(50);
 
 // console.log(numeroDivisivel(250));
 // console.log(numeroMultiplos(87, 20));
+// listaDeMultiplosDeUmNumero(29, 34);
