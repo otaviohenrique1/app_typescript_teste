@@ -36,7 +36,9 @@ import {
   CalculaMedidaTarawaClassAmphibiousAssaultShip3,
   CalculaMedidaType23frigate,
   CalculaMedidaType23frigate2,
-  CalculaMedidaType23frigate3
+  CalculaMedidaType23frigate3,
+  CalculaMedidaType23frigate4,
+  CalculaMedidaTankArduino
 } from "./calculos";
 
 /* ------------------------------ */
@@ -88,7 +90,10 @@ import {
 /* ------------------------------ */
 // CalculaMedidaType23frigate(577);
 // CalculaMedidaType23frigate2(50);
-CalculaMedidaType23frigate3(1.5);
+// CalculaMedidaType23frigate3(116);
+// CalculaMedidaType23frigate4(135);
+/* ------------------------------ */
+CalculaMedidaTankArduino(11);
 /* ------------------------------ */
 // CalculaMedidaBismarckClassBattleship(6); 
 /* ------------------------------ */
