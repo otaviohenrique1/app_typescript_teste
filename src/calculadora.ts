@@ -147,7 +147,7 @@ export class Calculadora {
       let x2: number = (-b - Math.sqrt(delta)) / (2 * a);
       return { x1, x2 };
     }
-    return {"r": "Valor invalido"};
+    return { "r": "Valor invalido" };
   }
 
   static geraNumero(tamanho: number) {
@@ -170,11 +170,10 @@ export function CalculaPerimetroCirculo(valor: number): void {
   console.log(resultadoImagem);
 }
 
-
 export function numeroDivisivel(numero: number): string[] {
   let lista: string[] = [];
   for (let i = 1; i <= 9; i++) {
-    lista.push(`${i} => ${(numero/(i)).toFixed(2)}`);
+    lista.push(`${i} => ${(numero / (i)).toFixed(2)}`);
   }
   return lista;
 }
@@ -182,7 +181,7 @@ export function numeroDivisivel(numero: number): string[] {
 export function numeroMultiplos(numero1: number, numero2: number): string[] {
   let lista: string[] = [];
   for (let i = 1; i <= numero2; i++) {
-    lista.push(`${i} => ${(numero1*(i)).toFixed(2)}`);
+    lista.push(`${i} => ${(numero1 * (i)).toFixed(2)}`);
   }
   return lista;
 }

@@ -585,6 +585,25 @@ export function CalculaMedidaType23frigate4(valor_c: number) {
   ]));
 }
 
+export function CalculaMedidaType23frigate5(valor_c: number) {
+  /*
+    574 - 1003
+    y   - x
+    x = (1003*y)/574
+    a - b
+    c - x
+    x = (b*c)/a
+  */
+  let valorImagem: number = valor_c;
+  let resultadoImagem1: number = Calculadora.CalculaMedida(574, 1003, valorImagem);
+  console.log(Calculadora.FormataCalculo([
+    'Type23frigate',
+    valorImagem.toString(),
+    resultadoImagem1.toFixed(2),
+    Math.round(resultadoImagem1).toString()
+  ]));
+}
+
 export function CalculaMedidaTankArduino(valor_c: number) {
   /*
     104 - 337

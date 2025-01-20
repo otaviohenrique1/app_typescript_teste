@@ -38,7 +38,8 @@ import {
   CalculaMedidaType23frigate2,
   CalculaMedidaType23frigate3,
   CalculaMedidaType23frigate4,
-  CalculaMedidaTankArduino
+  CalculaMedidaTankArduino,
+  CalculaMedidaType23frigate5
 } from "./calculos";
 
 /* ------------------------------ */
@@ -88,12 +89,13 @@ import {
 /* ------------------------------ */
 // CalculaMedidaPanhardAML90(13.5);
 /* ------------------------------ */
-// CalculaMedidaType23frigate(577);
-// CalculaMedidaType23frigate2(50);
-// CalculaMedidaType23frigate3(116);
-// CalculaMedidaType23frigate4(135);
+// CalculaMedidaType23frigate(95);
+// CalculaMedidaType23frigate2(95);
+// CalculaMedidaType23frigate3(95);
+// CalculaMedidaType23frigate4(95);
+CalculaMedidaType23frigate5(1.5);
 /* ------------------------------ */
-CalculaMedidaTankArduino(11);
+// CalculaMedidaTankArduino(11);
 /* ------------------------------ */
 // CalculaMedidaBismarckClassBattleship(6); 
 /* ------------------------------ */
